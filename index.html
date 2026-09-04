@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f2f3ef">
+<title>Devries Homebase</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="home-page">
+<div class="app-shell">
+
+  <aside class="sidebar">
+    <a class="sidebar-brand" href="index.html">
+      <span class="brand-mark">D</span>
+      <span>Devries</span>
+    </a>
+
+    <div class="sidebar-label">Homebase</div>
+    <nav class="side-nav">
+      <a href="index.html" class="current"><span>Home</span><span class="nav-key">H</span></a>
+      <a href="devries-a.html"><span>3rd Floor</span><span class="nav-key">3</span></a>
+      <a href="devries-b.html"><span>4th Floor X</span><span class="nav-key">X</span></a>
+      <a href="devries-c.html"><span>4th Floor Y</span><span class="nav-key">Y</span></a>
+    </nav>
+
+    <div class="sidebar-spacer"></div>
+    <div class="sidebar-foot">
+      <div>Trinity Western University</div>
+      <div>Men's Residence</div>
+    </div>
+  </aside>
+
+  <main class="app-main">
+    <header class="topbar">
+      <div>
+        <div class="topbar-date" id="today-date"></div>
+        <h1 data-home="title">Devries</h1>
+      </div>
+      <div class="topbar-meta">Men's Residence</div>
+    </header>
+
+    <div class="dashboard">
+
+      <section class="dashboard-card welcome-card">
+        <div class="card-label">Homebase</div>
+        <h2 id="greeting">Good afternoon.</h2>
+        <p data-home="intro">What’s happening, what you need, and where your floor is at.</p>
+      </section>
+
+      <section class="dashboard-card verse-card" id="verse-of-day">
+        <div class="card-label" data-home="verseLabel">Verse of the day</div>
+        <blockquote class="verse-text">Loading today’s verse…</blockquote>
+        <div class="verse-ref"></div>
+      </section>
+
+      <section class="dashboard-card floor-panel">
+        <div class="panel-head">
+          <h2>Your floor</h2>
+        </div>
+        <div class="floor-grid">
+          <a class="floor-tile" href="devries-a.html">
+            <span class="floor-code">03</span>
+            <span class="floor-name">3rd Floor Guys</span>
+            <span class="tile-arrow">→</span>
+          </a>
+          <a class="floor-tile" href="devries-b.html">
+            <span class="floor-code">4X</span>
+            <span class="floor-name">4th Floor X</span>
+            <span class="tile-arrow">→</span>
+          </a>
+          <a class="floor-tile" href="devries-c.html">
+            <span class="floor-code">4Y</span>
+            <span class="floor-name">4th Floor Y</span>
+            <span class="tile-arrow">→</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="dashboard-card quick-panel">
+        <div class="panel-head">
+          <h2>Quick access</h2>
+        </div>
+        <div class="quick-list">
+          <a href="https://servicehub.twu.ca/TDClient/1904/Portal/Requests/ServiceCatalog/Category/5380/Facility-Services" target="_blank" rel="noopener">
+            <span><strong>Maintenance</strong><small>Something broken</small></span><span class="quick-arrow">↗</span>
+          </a>
+          <a href="https://www.twu.ca/life-twu/campus-services" target="_blank" rel="noopener">
+            <span><strong>Security</strong><small>24/7 · 604-513-2099</small></span><span class="quick-arrow">↗</span>
+          </a>
+          <a href="https://www.twu.ca/about-us/policies-guidelines/student-policies/resident-life-housing-policies" target="_blank" rel="noopener">
+            <span><strong>Residence rules</strong><small>Quiet hours, guests, spaces</small></span><span class="quick-arrow">↗</span>
+          </a>
+          <a href="https://www.twu.ca/visit/campus-map" target="_blank" rel="noopener">
+            <span><strong>Campus map</strong><small>Find anything on campus</small></span><span class="quick-arrow">↗</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="dashboard-card events-panel">
+        <div class="panel-head">
+          <div>
+            <div class="card-label">All Devries</div>
+            <h2>Coming up</h2>
+          </div>
+        </div>
+        <div id="devries-event-list"></div>
+      </section>
+
+      <section class="dashboard-card campus-panel">
+        <div class="panel-head">
+          <h2>Do something</h2>
+        </div>
+        <div class="campus-actions">
+          <a href="https://www.twu.ca/life-twu/campus-ministries/chapel" target="_blank" rel="noopener">
+            <span class="action-number">01</span>
+            <span><strong>Chapel</strong><small>11:00–11:30 AM weekdays</small></span>
+            <span>↗</span>
+          </a>
+          <a href="https://www.twu.ca/life-twu/fitness-recreation/recreation/intramurals" target="_blank" rel="noopener">
+            <span class="action-number">02</span>
+            <span><strong>Intramurals</strong><small>Find a game. Bring guys with you.</small></span>
+            <span>↗</span>
+          </a>
+          <a href="https://www.twu.ca/life-twu/health-wellness-centre" target="_blank" rel="noopener">
+            <span class="action-number">03</span>
+            <span><strong>Wellness Centre</strong><small>Health and counselling support</small></span>
+            <span>↗</span>
+          </a>
+        </div>
+      </section>
+
+    </div>
+  </main>
+</div>
+
+<nav class="mobile-dock">
+  <a href="index.html" class="current"><span class="dock-key">H</span><small>Home</small></a>
+  <a href="devries-a.html"><span class="dock-key">3</span><small>3rd</small></a>
+  <a href="devries-b.html"><span class="dock-key">X</span><small>4X</small></a>
+  <a href="devries-c.html"><span class="dock-key">Y</span><small>4Y</small></a>
+</nav>
+
+<script src="data/content.js"></script>
+<script src="site-content.js"></script>
+<script src="data/events.js"></script>
+<script src="event-data.js"></script>
+<script src="home-page.js"></script>
+<script src="verse-of-day.js"></script>
+</body>
+</html>

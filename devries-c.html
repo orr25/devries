@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f2f3ef">
+<title>4th Floor Y — Devries</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-building="4Y">
+<div class="app-shell">
+
+  <aside class="sidebar">
+    <a class="sidebar-brand" href="index.html">
+      <span class="brand-mark">D</span>
+      <span>Devries</span>
+    </a>
+
+    <div class="sidebar-label">Homebase</div>
+    <nav class="side-nav">
+      <a href="index.html"><span>Home</span><span class="nav-key">H</span></a>
+      <a href="devries-a.html" ><span>3rd Floor</span><span class="nav-key">3</span></a>
+      <a href="devries-b.html" ><span>4th Floor X</span><span class="nav-key">X</span></a>
+      <a href="devries-c.html" class="current"><span>4th Floor Y</span><span class="nav-key">Y</span></a>
+    </nav>
+
+    <div class="sidebar-spacer"></div>
+    <div class="sidebar-foot">
+      <div>Trinity Western University</div>
+      <div>Men's Residence</div>
+    </div>
+  </aside>
+
+  <main class="app-main">
+    <header class="topbar dorm-topbar">
+      <div>
+        <div class="topbar-date">Devries</div>
+        <h1 data-dorm="name">4th Floor Y</h1>
+      </div>
+      <a class="back-home" href="index.html">Home</a>
+    </header>
+
+    <div class="dashboard dorm-dashboard">
+      <section class="dashboard-card ra-panel">
+        <div class="card-label">Your RA</div>
+        <div class="ra-compact">
+          <div class="ra-photo" data-dorm="raPhoto"></div>
+          <div>
+            <h2 data-dorm="raName">RA Name</h2>
+            <div class="ra-role" data-dorm="raRole">Resident Assistant</div>
+            <p data-dorm="raBio">Add a short intro.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="dashboard-card dorm-events-panel">
+        <div class="panel-head">
+          <div>
+            <div class="card-label">This floor</div>
+            <h2>Dorm nights</h2>
+          </div>
+        </div>
+        <div id="dormnight-list"></div>
+      </section>
+    </div>
+  </main>
+</div>
+
+<nav class="mobile-dock">
+  <a href="index.html"><span class="dock-key">H</span><small>Home</small></a>
+  <a href="devries-a.html" ><span class="dock-key">3</span><small>3rd</small></a>
+  <a href="devries-b.html" ><span class="dock-key">X</span><small>4X</small></a>
+  <a href="devries-c.html" class="current"><span class="dock-key">Y</span><small>4Y</small></a>
+</nav>
+
+<script src="data/content.js"></script>
+<script src="site-content.js"></script>
+<script src="data/events.js"></script>
+<script src="event-data.js"></script>
+<script src="dorm-page.js"></script>
+</body>
+</html>
