@@ -10,7 +10,7 @@ window.DEVRIES_CONTENT = {
 
     "3": {
       name: "3rd Floor Guys",
-      raName: "Andrew",
+      raName: "Divij",
       raRole: "Resident Assistant · 3rd Floor",
       raBio: "Come find me to hang out, grab food, pray, talk about life, or plan something fun.",
       raPhoto: ""
