@@ -9,5 +9,14 @@ function upcomingEvents(events){
 }
 
 async function getDevriesEvents(){
-  return window.DEVRIES_EVENTS || [];
+  return window.DEVRIES_EVENTS || [ {
+ building: "ALL",
+    date: "2026-09-5",
+    time: "8:45",
+    durationMinutes: 00,
+    title: "Orientation Day!",
+    location: "Devries Building",
+    description: "Get excited for Orientation day! "
+    }
+  ];
 }
