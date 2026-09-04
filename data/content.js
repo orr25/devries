@@ -13,7 +13,7 @@ window.DEVRIES_CONTENT = {
       raName: "Divij",
       raRole: "Resident Assistant · 3rd Floor",
       raBio: "Come find me to hang out, grab food, pray, talk about life, or plan something fun.",
-      raPhoto: ""
+      raPhoto: "images/divij.png"
     },
 
     "4X": {
