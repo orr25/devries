@@ -1,7 +1,7 @@
 window.DEVRIES_EVENTS = [
 
   {
-    building: "Devries",
+    building: "ALL",
     date: "2026-10-5",
     time: "8:45",
     durationMinutes: 00,
