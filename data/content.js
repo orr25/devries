@@ -21,7 +21,7 @@ window.DEVRIES_CONTENT = {
       raName: "RA Name",
       raRole: "Resident Assistant · 4th Floor X",
       raBio: "Add a short intro here.",
-      raPhoto: ""
+      raPhoto: "images/andy.jpg"
     },
 
     "4Y": {
