@@ -13,7 +13,7 @@ window.DEVRIES_CONTENT = {
       raName: "Divij",
       raRole: "Resident Assistant · 3rd Floor",
       raBio: "Come find me to hang out, grab food, pray, talk about life, or plan something fun.",
-      raPhoto: "images/divij.png"
+      raPhoto: "images/divij.jpg"
     },
 
     "4X": {
@@ -29,7 +29,7 @@ window.DEVRIES_CONTENT = {
       raName: "RA Name",
       raRole: "Resident Assistant · 4th Floor Y",
       raBio: "Add a short intro here.",
-      raPhoto: ""
+      raPhoto: "images/kish.jpg"
     }
 
   },
