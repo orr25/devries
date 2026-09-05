@@ -3,7 +3,7 @@ window.DEVRIES_EVENTS = [
   {
     building: "ALL",
     date: "2026-10-5",
-    time: "8:45",
+    time: "08:45",
     durationMinutes: 00,
     title: "Orientation Day",
     location: "Devries",
@@ -15,7 +15,7 @@ window.DEVRIES_EVENTS = [
     date: "2026-09-12",
     time: "19:30",
     durationMinutes: 10,
-    title: "Get to know you more form",
+    title: "Get to know you better form",
     location: "Online",
     description: "https://forms.cloud.microsoft/r/w05g9zJyZS?origin=lprLink
       "
