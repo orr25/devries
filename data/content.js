@@ -10,25 +10,25 @@ window.DEVRIES_CONTENT = {
 
   "3": {
   name: "3rd Floor XY",
-  raName: "RA Name",
+  raName: "Divij",
   raRole: "Resident Assistant · 3rd Floor",
-  raBio: "Add bio here.",
+  raBio: "DJ vij over here",
   raPhoto: "images/divij.png"
 },
 
 "4X": {
   name: "4th Floor X",
-  raName: "RA Name",
+  raName: "Andy",
   raRole: "Resident Assistant · 4th Floor X",
-  raBio: "Add bio here.",
+  raBio: "Feel free to contact me anytime for prayer or a chat!",
   raPhoto: "images/andy.jpg"
 },
 
 "4Y": {
   name: "4th Floor Y",
-  raName: "RA Name",
+  raName: "Kish",
   raRole: "Resident Assistant · 4th Floor Y",
-  raBio: "Add bio here.",
+  raBio: "Fish Bwish Kish",
   raPhoto: "images/kish.png"
 }
 
