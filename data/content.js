@@ -9,7 +9,7 @@ window.DEVRIES_CONTENT = {
   dorms: {
 
   "3": {
-  name: "3rd Floor Guys",
+  name: "3rd Floor XY",
   raName: "RA Name",
   raRole: "Resident Assistant · 3rd Floor",
   raBio: "Add bio here.",
