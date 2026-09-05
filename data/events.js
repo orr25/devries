@@ -11,13 +11,14 @@ window.DEVRIES_EVENTS = [
   },
 
   {
-    building: "4X",
+    building: "4x",
     date: "2026-09-12",
     time: "19:30",
     durationMinutes: 120,
     title: "Movie Night",
-    location: "4th Floor Lounge",
-    description: "Movie and snacks."
+    location: "Online",
+    description: "https://forms.cloud.microsoft/r/w05g9zJyZS?origin=lprLink
+      "
   }
 
 ];
