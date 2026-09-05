@@ -8,29 +8,29 @@ window.DEVRIES_CONTENT = {
 
   dorms: {
 
-    "3": {
-      name: "3rd Floor Guys",
-      raName: "Divij",
-      raRole: "Resident Assistant · 3rd Floor",
-      raBio: "Come find me to hang out, grab food, pray, talk about life, or plan something fun.",
-      raPhoto: "images/divij.jpg"
-    },
+  "3": {
+  name: "3rd Floor Guys",
+  raName: "RA Name",
+  raRole: "Resident Assistant · 3rd Floor",
+  raBio: "Add bio here.",
+  raPhoto: "images/divij.jpg"
+},
 
-    "4X": {
-      name: "4th Floor X",
-      raName: "RA Name",
-      raRole: "Resident Assistant · 4th Floor X",
-      raBio: "Add a short intro here.",
-      raPhoto: "images/andy.jpg"
-    },
+"4X": {
+  name: "4th Floor X",
+  raName: "RA Name",
+  raRole: "Resident Assistant · 4th Floor X",
+  raBio: "Add bio here.",
+  raPhoto: "images/andy.jpg"
+},
 
-    "4Y": {
-      name: "4th Floor Y",
-      raName: "RA Name",
-      raRole: "Resident Assistant · 4th Floor Y",
-      raBio: "Add a short intro here.",
-      raPhoto: "images/kish.jpg"
-    }
+"4Y": {
+  name: "4th Floor Y",
+  raName: "RA Name",
+  raRole: "Resident Assistant · 4th Floor Y",
+  raBio: "Add bio here.",
+  raPhoto: "images/kish.jpg"
+}
 
   },
 
