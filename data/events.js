@@ -17,5 +17,5 @@ window.DEVRIES_EVENTS = [
     title: "Orientation Day!",
     location: "Devries",
     description: "Settle into your new home! Take your time and get used to your dorm, and make everything cozy!"
-  }
+}
 ];
