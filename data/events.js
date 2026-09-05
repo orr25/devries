@@ -11,11 +11,11 @@ window.DEVRIES_EVENTS = [
   },
 
   {
-    building: "4x",
+    building: "4X",
     date: "2026-09-12",
     time: "19:30",
-    durationMinutes: 120,
-    title: "Movie Night",
+    durationMinutes: 10,
+    title: "Get to know you more form",
     location: "Online",
     description: "https://forms.cloud.microsoft/r/w05g9zJyZS?origin=lprLink
       "
