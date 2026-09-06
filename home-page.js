@@ -112,6 +112,24 @@ function renderToday(){
 
   });
 }
+document.addEventListener('DOMContentLoaded', () => {
+
+  const modal = document.getElementById('event-modal');
+  const close = document.getElementById('event-modal-close');
+
+  if(close && modal){
+    close.addEventListener('click', () => {
+      modal.close();
+    });
+
+    modal.addEventListener('click', (event) => {
+      if(event.target === modal){
+        modal.close();
+      }
+    });
+  }
+
+});
 }
 
 document.addEventListener('DOMContentLoaded',()=>{
