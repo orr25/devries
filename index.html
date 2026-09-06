@@ -154,6 +154,32 @@
   <a href="devries-c.html"><span class="dock-key">Y</span><small>4Y</small></a>
 </nav>
 
+  <dialog id="event-modal" class="event-modal">
+  <div class="event-modal-inner">
+
+    <button
+      type="button"
+      id="event-modal-close"
+      class="event-modal-close"
+      aria-label="Close event"
+    >
+      ×
+    </button>
+
+    <div class="card-label">Devries event</div>
+
+    <h2 id="event-modal-title"></h2>
+
+    <div class="event-modal-meta">
+      <div id="event-modal-date"></div>
+      <div id="event-modal-time"></div>
+      <div id="event-modal-location"></div>
+    </div>
+
+    <p id="event-modal-description"></p>
+
+  </div>
+</dialog>
 <script src="data/content.js"></script>
 <script src="site-content.js"></script>
 <script src="data/events.js"></script>
