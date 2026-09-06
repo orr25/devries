@@ -111,7 +111,6 @@ function renderToday(){
     });
 
   });
-}
 document.addEventListener('DOMContentLoaded', () => {
 
   const modal = document.getElementById('event-modal');
