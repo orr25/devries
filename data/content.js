@@ -25,7 +25,7 @@ window.DEVRIES_CONTENT = {
 },
 
 "4Y": {
-  name: "4th Floor Y",
+  name: "4th Floor W",
   raName: "Kish",
   raRole: "Resident Assistant · 4th Floor Y",
   raBio: "Fish Bwish Kish",
