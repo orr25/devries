@@ -42,33 +42,76 @@ function renderToday(){
     greeting.textContent = text;
   }
 }
-
-async function renderHomeEvents(){
-  const box=document.getElementById('devries-event-list');
+ async function renderHomeEvents(){
+  const box = document.getElementById('devries-event-list');
   if(!box) return;
 
-  const events=upcomingEvents(await getDevriesEvents())
+  const events = upcomingEvents(await getDevriesEvents())
     .filter(ev => ev.building === 'ALL')
-    .slice(0,4);
+    .slice(0, 4);
 
   if(!events.length){
-    box.innerHTML='<div class="quiet-card"><strong>Nothing building-wide scheduled right now.</strong></div>';
+    box.innerHTML =
+      '<div class="quiet-card"><strong>Nothing building-wide scheduled right now.</strong></div>';
     return;
   }
 
-  box.innerHTML=events.map(ev=>{
-    const dt=shortMonth(ev.date);
-    return `<div class="event">
-      <div class="date-badge">
-        <div class="day">${dt.day}</div>
-        <div class="mon">${dt.mon}</div>
-      </div>
-      <div class="event-info">
-        <div class="title">${homeEscape(ev.title)}</div>
-        <div class="meta">${dt.weekday} · ${homeTime(ev.time)}${ev.location ? ' · ' + homeEscape(ev.location) : ''}</div>
-      </div>
-    </div>`;
+  box.innerHTML = events.map((ev, index) => {
+    const dt = shortMonth(ev.date);
+
+    return `
+      <button class="event event-button" type="button" data-event-index="${index}">
+        <div class="date-badge">
+          <div class="day">${dt.day}</div>
+          <div class="mon">${dt.mon}</div>
+        </div>
+
+        <div class="event-info">
+          <div class="title">${homeEscape(ev.title)}</div>
+
+          <div class="meta">
+            ${dt.weekday} · ${homeTime(ev.time)}
+            ${ev.location ? ' · ' + homeEscape(ev.location) : ''}
+          </div>
+        </div>
+      </button>
+    `;
   }).join('');
+
+  const modal = document.getElementById('event-modal');
+
+  box.querySelectorAll('.event-button').forEach(button => {
+
+    button.addEventListener('click', () => {
+
+      const event = events[Number(button.dataset.eventIndex)];
+
+      const date = new Date(event.date + 'T12:00:00');
+
+      document.getElementById('event-modal-title').textContent =
+        event.title;
+
+      document.getElementById('event-modal-date').textContent =
+        date.toLocaleDateString(undefined, {
+          weekday: 'long',
+          month: 'long',
+          day: 'numeric'
+        });
+
+      document.getElementById('event-modal-time').textContent =
+        homeTime(event.time);
+
+      document.getElementById('event-modal-location').textContent =
+        event.location || '';
+
+      document.getElementById('event-modal-description').textContent =
+        event.description || '';
+
+      modal.showModal();
+    });
+
+  });
+}
 }
 
 document.addEventListener('DOMContentLoaded',()=>{
