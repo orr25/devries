@@ -11,7 +11,7 @@ window.DEVRIES_EVENTS = [
   }
 ,{
   building: "ALL",
-    date: "2026-10-6",
+    date: "2026-09-06",
     time: "17:00",
     durationMinutes: 60,
     title: "Dorm Dinner",
