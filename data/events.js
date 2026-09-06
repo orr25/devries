@@ -9,13 +9,13 @@ window.DEVRIES_EVENTS = [
     location: "Online",
     description: " Please complete this form so I can get to know you a lot better! https://forms.cloud.microsoft/r/w05g9zJyZS?origin=lprLink"
   }
-,   {
-    building: "ALL",
-    date: "2026-10-5",
-    time: "09:00",
-    durationMinutes: 15,
-    title: "Orientation Day!",
-    location: "Devries",
-    description: "Settle into your new home! Take your time and get used to your dorm, and make everything cozy!"
+,{
+  building: "ALL",
+    date: "2026-10-6",
+    time: "17:00",
+    durationMinutes: 60,
+    title: "Dorm Dinner",
+    location: "Caf",
+    description: "Meet in Lounge 5:10, and walk over together to dinner"
 }
 ];
