@@ -13,7 +13,7 @@
     setText('[data-home="title"]', home.title);
     setText('[data-home="intro"]', home.intro);
     setText('[data-home="verseLabel"]', home.verseLabel);
-    ["3", "4X", "4Y"].forEach(code => {
+    ["3", "4X", "4W"].forEach(code => {
   const dorm = (content.dorms || {})[code];
   const el = document.querySelector(`[data-floor-name="${code}"]`);
 
