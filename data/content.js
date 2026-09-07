@@ -28,7 +28,7 @@ window.DEVRIES_CONTENT = {
   name: "4th Floor W",
   raName: "Kish",
   raRole: "Resident Assistant · 4th Floor Y",
-  raBio: "Kish the Fish",
+  raBio: "Kish the Fish ",
   raPhoto: "images/kish.png"
 }
 
