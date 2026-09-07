@@ -24,11 +24,11 @@ window.DEVRIES_CONTENT = {
   raPhoto: "images/andy.jpg"
 },
 
-"4Y": {
+"4W": {
   name: "4th Floor W",
   raName: "Kish",
   raRole: "Resident Assistant · 4th Floor Y",
-  raBio: "Fish Bwish Kish",
+  raBio: "Kish the Fish",
   raPhoto: "images/kish.png"
 }
 
