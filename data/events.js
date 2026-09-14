@@ -20,7 +20,7 @@ window.DEVRIES_EVENTS = [
   } ,
    {
     building: "4X",
-    date: "2026-10-7",
+    date: "2026-10-07",
     time: "21:00",
     durationMinutes: 60,
     title: "DORM NIGHT: Dorm Date with Douglas North UP",
