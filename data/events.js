@@ -8,5 +8,14 @@ window.DEVRIES_EVENTS = [
     title: "DORM NIGHT: Watermelon Rugby",
     location: "Devries",
     description: " All of the Devries guys will be competing in Watermelon Rugby for Dorm Night!"
-  }
+  } ,
+    {
+    building: "4X",
+    date: "2026-09-30",
+    time: "21:00",
+    durationMinutes: 60,
+    title: "DORM NIGHT: Dorm Date with 4th Floor Devries Girls",
+    location: "Devries",
+    description: "Event TBD"
+  } 
 ];
