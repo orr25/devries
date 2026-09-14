@@ -17,5 +17,14 @@ window.DEVRIES_EVENTS = [
     title: "DORM NIGHT: Dorm Date with 4th Floor Devries Girls",
     location: "Devries",
     description: "Event TBD"
+  } ,
+   {
+    building: "4X",
+    date: "2026-10-7",
+    time: "21:00",
+    durationMinutes: 60,
+    title: "DORM NIGHT: Dorm Date with Douglas North UP",
+    location: "Devries",
+    description: "Debate Night"
   } 
 ];
